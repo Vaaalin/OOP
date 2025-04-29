@@ -1,16 +1,16 @@
-
 import java.util.Scanner;
 
 public class choices {
     public static void main(String[] args) {
-        Scanner pr=new Scanner(System.in);
-        System.out.println("Enter the price: ");
-        int price=pr.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the item cost: ");
+        int cost = scanner.nextInt();
     
-        if (price <25 ){
-        System.out.println("i'll buy!");
-        }else{
-        System.out.println("TOO expensive");
+        if (cost < 30){
+            System.out.println("That's affordable!");
+        } else {
+            System.out.println("Too costly for my budget");
         }
     }   
 }
+//use of if else statement
